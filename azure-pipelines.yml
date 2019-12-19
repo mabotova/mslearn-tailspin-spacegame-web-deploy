@@ -84,3 +84,4 @@ variables:
                 azureSubscription: 'AIRS-Space-Game'
                 appName: '$(WebAppName)'
                 package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
+                
